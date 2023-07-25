@@ -158,6 +158,10 @@ h2 {
     z-index: 2;
     overflow: hidden;
 
+    @media (max-width: 576px) {
+      left: -0.9rem;
+    }
+
     .shape1,
     .shape2 {
       position: absolute;

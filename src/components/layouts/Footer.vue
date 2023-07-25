@@ -16,7 +16,7 @@
           <div class="col-lg-3 col-12">
             <ul class="info">
               <li class="logo">
-                <img src="../../assets/images/logo.png" alt="Logo" />
+                <img src="../../assets/images/logo-2.png" alt="Logo" />
               </li>
               <li class="disc">A platform specialized in selling games</li>
               <li class="social">
@@ -130,18 +130,23 @@ footer {
   padding: 3rem 2rem;
   border-radius: 1rem;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.56);
+
   h2 {
     font-size: 3rem;
     color: #000;
+
     span {
       margin: 1rem;
     }
+
     @media (max-width: 1400px) {
       margin: auto;
     }
   }
+
   form {
     display: flex;
+
     input {
       background-color: #2a2a2a;
       color: #fff;
@@ -150,29 +155,36 @@ footer {
       font-size: 2rem;
       padding: 1rem 2rem;
     }
+
     input[type="text"] {
       border-radius: 0.8rem 0 0 0.8rem;
     }
+
     input[type="button"] {
       border-radius: 0 0.8rem 0.8rem 0;
       border-left: 1px solid #fff;
     }
+
     @media (max-width: 1400px) {
       margin: auto;
     }
   }
+
   @media (max-width: 767.98px) {
     width: 80%;
     padding: 2rem 1rem;
   }
+
   @media (max-width: 575.98px) {
     width: 95%;
     padding: 2rem 1rem;
   }
+
   @media (max-width: 479.98px) {
     h2 {
       font-size: 2rem;
     }
+
     form {
       input {
         font-size: 1.2rem;
@@ -181,27 +193,33 @@ footer {
     }
   }
 }
+
 .row {
   gap: 3rem 0;
 }
+
 .links {
   @media (max-width: 991.98px) {
     padding: 0 4rem;
   }
 }
+
 .info {
   .logo {
     img {
-      width: 20rem;
+      width: 10rem;
     }
   }
+
   .disc {
     font-size: 1.6rem;
     margin: 2rem 0;
   }
+
   .social {
     i {
       font-size: 3rem;
+
       &:nth-child(2) {
         margin: 0 2rem;
       }
@@ -211,15 +229,18 @@ footer {
 
 h3 {
   font-size: 3rem;
+
   img {
     width: 2rem;
     position: relative;
     top: -0.3rem;
   }
+
   span {
     margin: 1rem;
   }
 }
+
 .fast_links,
 .accounts_links,
 .support_links {
@@ -227,18 +248,22 @@ h3 {
     font-size: 1.8rem;
     margin-top: 1.5rem;
     cursor: pointer;
+
     i {
       color: #ec9700;
     }
+
     a {
       margin: 0 1rem;
       transition: 0.3s ease;
+
       &:hover {
         color: #ec9700;
       }
     }
   }
 }
+
 .footer_end {
   display: flex;
   justify-content: center;
@@ -247,27 +272,33 @@ h3 {
   gap: 2rem 0;
   background-color: #19192c;
   padding: 2.5rem;
+
   p {
     font-size: 2rem;
     margin-bottom: 0;
     color: #fff;
     margin: auto;
+
     a {
       color: #fff;
       text-decoration: none;
       font-weight: bold;
     }
   }
+
   ul {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem 0;
     margin: auto;
+
     @media (max-width: 575.98px) {
       gap: 2rem;
     }
+
     li {
       cursor: pointer;
+
       img {
         width: 80%;
       }
